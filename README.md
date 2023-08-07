@@ -18,16 +18,17 @@ This website is hosted at https://myaniverse.netlify.app/
 
 To run Aniverse locally, follow these steps:
 
-# Clone this repository
-git clone https://github.com/your-username/aniverse.git
+#### Clone this repository
+git clone https://github.com/RyanJohnsonDEV/Aniverse.git
 
-# Navigate to the project directory
+#### Navigate to the project directory
 cd aniverse
 
-# Install the dependencies
-npm install
+#### Install the dependencies
+npm i
+npm i react-router-dom
 
-# Start the development server
+#### Start the development server
 npm start
 
 Open your browser and navigate to your localhost dev server to access the Aniverse app.
@@ -38,18 +39,18 @@ Open your browser and navigate to your localhost dev server to access the Aniver
 - **React Router**: A routing library for React applications, enabling navigation without a full page reload.
 - **Kitsu API**: A free and open API that provides access to anime and manga data.
   
-##Contributing
+## Contributing
 
 Contributions are welcome! If you'd like to contribute to Aniverse, please follow these steps:
 
-##Fork the repository.
+## Fork the repository.
 
 - Create a new branch for your feature or bug fix.
 - Make your changes and commit them.
 - Push your changes to your fork.
 - Submit a pull request detailing your changes.
 
-##License
+## License
 
 This project is licensed under the MIT License.
 
