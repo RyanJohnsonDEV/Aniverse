@@ -19,17 +19,17 @@ This website is hosted at https://myaniverse.netlify.app/
 To run Aniverse locally, follow these steps:
 
 #### Clone this repository
-git clone https://github.com/RyanJohnsonDEV/Aniverse.git
+`git clone` https://github.com/RyanJohnsonDEV/Aniverse.git
 
 #### Navigate to the project directory
-cd aniverse
+`cd aniverse`
 
 #### Install the dependencies
-npm i
-npm i react-router-dom
+`npm i`
+`npm i react-router-dom`
 
 #### Start the development server
-npm start
+`npm start`
 
 Open your browser and navigate to your localhost dev server to access the Aniverse app.
 
