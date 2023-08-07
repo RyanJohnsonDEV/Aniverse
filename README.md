@@ -19,7 +19,7 @@ This website is hosted at https://myaniverse.netlify.app/
 To run Aniverse locally, follow these steps:
 
 #### Clone this repository
-`git clone` https://github.com/RyanJohnsonDEV/Aniverse.git
+`git clone https://github.com/RyanJohnsonDEV/Aniverse.git`
 
 #### Navigate to the project directory
 `cd aniverse`
