@@ -33,7 +33,7 @@ To run Aniverse locally, follow these steps:
 
 Open your browser and navigate to your localhost dev server to access the Aniverse app.
 
-##Technologies Used
+## Technologies Used
 
 - **React**: A popular JavaScript library for building user interfaces.
 - **React Router**: A routing library for React applications, enabling navigation without a full page reload.
