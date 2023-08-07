@@ -1,4 +1,4 @@
-# Aniverse - Anime Information App
+# Aniverse
 
 Aniverse is a web application built using React, React Router, and the Kitsu API that allows users to search for anime and access detailed information about various anime series. Whether you're an avid anime fan or just getting started, Aniverse provides a user-friendly interface to explore and learn more about your favorite anime titles.
 
