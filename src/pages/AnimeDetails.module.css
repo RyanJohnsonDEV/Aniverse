@@ -1,0 +1,220 @@
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid gray;
+  padding: 0;
+  width: 100%;
+}
+
+p {
+  padding: 0.25rem 0;
+}
+
+.coverImage {
+  width: 100%;
+  height: 30vh;
+  object-fit: cover;
+  filter: brightness(40%);
+  border-bottom: 4px solid gray;
+}
+
+.header {
+  position: relative;
+}
+
+.title {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 40px;
+  width: 100%;
+  max-width: 1200px;
+  text-align: center;
+}
+
+.animeInfo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.animeWrapper {
+  display: flex;
+  justify-content: center;
+  border: 1px solid gray;
+  max-width: 1200px;
+  width: 100%;
+  /* flex-wrap: wrap; */
+}
+
+.infoPanel {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  gap: 2rem;
+}
+
+.infoTitle {
+  margin-left: 0.5rem;
+}
+
+.infoTextBlock {
+  padding: 0.5rem;
+}
+
+.trailer {
+  position: relative;
+}
+
+.trailer:hover {
+  cursor: pointer;
+}
+
+.trailerPlay {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 2px 2px 2px black;
+  z-index: 5;
+  user-select: none;
+}
+
+.trailer img {
+  width: 100%;
+  filter: brightness(50%);
+}
+
+.trailerTitle {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  text-shadow: 1px 1px 2px black;
+  z-index: 5;
+  user-select: none;
+}
+
+.youtubeOverlay {
+  position: fixed;
+  z-index: 10;
+}
+
+.youtubeOverlayBackground {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100vw;
+  height: 100vh;
+}
+
+.trailerClose {
+  position: absolute;
+  top: -2rem;
+  right: -1.5rem;
+  font-size: 2rem;
+  user-select: none;
+  cursor: pointer;
+  background-color: black;
+  padding: 0 0.75rem;
+  border-radius: 100px;
+  border: 2px solid white;
+}
+
+.hidden {
+  display: none;
+}
+
+.youtubeVideo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70vw;
+  height: 70vh;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.mainPanel {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-left: 1px solid gray;
+  min-width: 300px;
+}
+
+.ratingInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px gray solid;
+}
+
+.scoreHeading {
+  font-weight: bold;
+  text-align: center;
+  background-color: darkslateblue;
+  width: 100%;
+}
+
+.score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 15%;
+}
+
+.ratingDetails {
+  width: 85%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.infoPadding {
+  padding: 1rem;
+}
+
+.characters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+}
+
+.character {
+  width: 150px;
+}
+
+.character p {
+  font-size: 12px;
+}
+
+.character img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 600px) {
+  .animeWrapper {
+    flex-wrap: wrap;
+    border: none;
+  }
+  .infoPanel {
+    max-width: 100%;
+  }
+  .mainPanel {
+    border-left: none;
+    border-top: 1px solid gray;
+    margin-top: 1rem;
+  }
+}
